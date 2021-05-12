@@ -1,0 +1,40 @@
+.container{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    padding-top: 50px;
+    grid-row-gap: 40px;
+}
+ @media only screen and (max-width: 529px){
+    .container{
+        grid-template-columns: repeat(1,auto);
+        width: auto;
+    }
+    .card{
+        width: auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 530px) and (max-width:889px){
+    .container{
+        grid-template-columns: repeat(2,auto);
+        width: auto;
+        grid-column-gap: 40px;
+    }
+    .card{
+        width: auto;
+    }
+}
+@media only screen and (min-width: 890px) and (max-width:1198px){
+    .container{
+        grid-template-columns: repeat(3,auto);
+    }
+    
+}
+@media only screen and (min-width: 1199px) and (max-width:1480px){
+    .container{
+        grid-template-columns: repeat(4,auto);
+    }
+    
+} 

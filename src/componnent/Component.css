@@ -1,0 +1,17 @@
+.card{
+    width: 225px;
+    height: 185px;
+    padding: 10px;
+    background-color: honeydew;
+    display: grid;
+    grid-row-gap: 5px;
+    box-shadow: 0px 0px 12px 1px grey;
+}
+.heading{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: honeydew;
+}
