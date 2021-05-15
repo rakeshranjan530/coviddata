@@ -31,7 +31,7 @@ const WrapperContainer =()=>{
             <Router>
                     <Switch>
                         <Route exact path="/" component={()=><Home stateSearchName={volatile?.stateData} stateName={volatile?.stateName}/>}/>
-                        <Route exact path="/district" component= {District} />
+                        <Route exact path="/district/:af" component= {District} />
                     </Switch>
             </Router>
                    

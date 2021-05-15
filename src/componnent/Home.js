@@ -5,7 +5,7 @@ import { useState } from "react";
 const Home =({stateName,stateSearchName})=>{
     let history = useHistory();
     const handleOnclick =(statename)=>{
-        history.push({pathname:'/district',data:stateName[statename]})
+        history.push({pathname:`/district/${statename}`,data:stateName[statename]})
     }
 
     const [volatile, setVolatile] = useState({

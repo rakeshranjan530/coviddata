@@ -20,14 +20,30 @@
     margin: auto;
 }
 .heading{
-    border: 1px solid;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
     align-items: center;
     padding: 10px;
     background-color: honeydew;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 12px 1px grey;
+}
+.header1{
+    display: flex;
+    justify-content: space-around;
+}
+.header2{
+    display: flex;
+    justify-content: center;
 }
 .search_bar{
     width: 230px;
     height: 26px;
+}
+.pointerhand{
+    display: none;
+}
+.dot{
+    display: none;
 }
